@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-28T12:34:51 IST" name="Failed suite [Suite]" finished-at="2022-05-28T12:35:02 IST" duration-ms="10443">
+    <groups>
+    </groups>
+    <test started-at="2022-05-28T12:34:51 IST" name="Test(failed)" finished-at="2022-05-28T12:34:55 IST" duration-ms="3505">
+      <class name="com.SauceDemo.TestClasses.TC02Singleproduct">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.SauceDemo.TestClasses.TC02Singleproduct@3b6ddd1d]" started-at="2022-05-28T12:34:51 IST" name="setUp" finished-at="2022-05-28T12:34:55 IST" duration-ms="3265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="singleproducttest()[pri:1, instance:com.SauceDemo.TestClasses.TC02Singleproduct@3b6ddd1d]" started-at="2022-05-28T12:34:55 IST" name="singleproducttest" finished-at="2022-05-28T12:34:55 IST" duration-ms="64" status="FAIL">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[test fail if expected and actual not equal expected:<[0]> but was:<[1]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: test fail if expected and actual not equal expected:<[0]> but was:<[1]>
+at junit.framework.Assert.assertEquals(Assert.java:100)
+at com.SauceDemo.TestClasses.TC02Singleproduct.singleproducttest(TC02Singleproduct.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleproducttest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SauceDemo.TestClasses.TC02Singleproduct@3b6ddd1d]" started-at="2022-05-28T12:34:55 IST" name="tearDown" finished-at="2022-05-28T12:34:55 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SauceDemo.TestClasses.TC02Singleproduct -->
+    </test> <!-- Test(failed) -->
+    <test started-at="2022-05-28T12:34:55 IST" name="firefoxTest(failed)" finished-at="2022-05-28T12:34:59 IST" duration-ms="4219">
+      <class name="com.SauceDemo.TestClasses.TC02Singleproduct">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.SauceDemo.TestClasses.TC02Singleproduct@1ed6388a]" started-at="2022-05-28T12:34:55 IST" name="setUp" finished-at="2022-05-28T12:34:58 IST" duration-ms="3290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="singleproducttest()[pri:1, instance:com.SauceDemo.TestClasses.TC02Singleproduct@1ed6388a]" started-at="2022-05-28T12:34:58 IST" name="singleproducttest" finished-at="2022-05-28T12:34:58 IST" duration-ms="244" status="FAIL">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[test fail if expected and actual not equal expected:<[0]> but was:<[1]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: test fail if expected and actual not equal expected:<[0]> but was:<[1]>
+at junit.framework.Assert.assertEquals(Assert.java:100)
+at com.SauceDemo.TestClasses.TC02Singleproduct.singleproducttest(TC02Singleproduct.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleproducttest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SauceDemo.TestClasses.TC02Singleproduct@1ed6388a]" started-at="2022-05-28T12:34:58 IST" name="tearDown" finished-at="2022-05-28T12:34:59 IST" duration-ms="683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SauceDemo.TestClasses.TC02Singleproduct -->
+    </test> <!-- firefoxTest(failed) -->
+    <test started-at="2022-05-28T12:34:59 IST" name="edgeTest(failed)" finished-at="2022-05-28T12:35:02 IST" duration-ms="2695">
+      <class name="com.SauceDemo.TestClasses.TC02Singleproduct">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.SauceDemo.TestClasses.TC02Singleproduct@121314f7]" started-at="2022-05-28T12:34:59 IST" name="setUp" finished-at="2022-05-28T12:35:01 IST" duration-ms="2391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="singleproducttest()[pri:1, instance:com.SauceDemo.TestClasses.TC02Singleproduct@121314f7]" started-at="2022-05-28T12:35:01 IST" name="singleproducttest" finished-at="2022-05-28T12:35:01 IST" duration-ms="69" status="FAIL">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[test fail if expected and actual not equal expected:<[0]> but was:<[1]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: test fail if expected and actual not equal expected:<[0]> but was:<[1]>
+at junit.framework.Assert.assertEquals(Assert.java:100)
+at com.SauceDemo.TestClasses.TC02Singleproduct.singleproducttest(TC02Singleproduct.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleproducttest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SauceDemo.TestClasses.TC02Singleproduct@121314f7]" started-at="2022-05-28T12:35:01 IST" name="tearDown" finished-at="2022-05-28T12:35:02 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SauceDemo.TestClasses.TC02Singleproduct -->
+    </test> <!-- edgeTest(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
+</testng-results>
